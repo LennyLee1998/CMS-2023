@@ -7,7 +7,7 @@
 <script setup lang="ts">
 import BaseEchart from "./base-echart.vue";
 import type { EChartsOption } from "echarts";
-import { computed } from "vue";
+import { computed, ref } from "vue";
 
 interface IProps {
   labels: string[];
